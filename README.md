@@ -20,6 +20,21 @@ VERSION NOTE
 
 This library currently supports v7 of the adCenter API. You will see a folder for v8 in the repo, but that version is not fully ready yet (in part, because MSN/Bing/Whatever still hasn't released a sandbox for v8 so all development has to be done in production).
 
+How do I get the right CustomerId/CustomerAccountId values?
+===========================================================
+
+Great question. We have included a simple script in the tools folder that will help you do this.
+
+Script: tools/account_id_fetch.php
+
+Edit the script and put in your token/username credentials.
+
+Next, run it from the command line like this:
+
+php tools/account_id_fetch.php
+
+You should get a print out of all the correct ids for the accounts available to you.
+
 Example Uses
 ============
 
