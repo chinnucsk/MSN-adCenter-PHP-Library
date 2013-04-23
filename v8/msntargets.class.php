@@ -50,7 +50,7 @@ class MSNTargets extends MSNAdCenter {
      * @return mixed default response type (Object, Array or Raw XML), or bool if $boolResponse == TRUE
      */
     static private function structExec($service, array $targets, $boolResponse = FALSE) {
-	if (!empty($argets)) {
+	if (!empty($targets)) {
 	    $params = array(
 		'Targets' => array('Target' => $targets),
 	    );
