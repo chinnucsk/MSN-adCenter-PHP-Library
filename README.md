@@ -15,10 +15,6 @@ The MSN adCenter API is filled with strange nuances that make it difficult to in
 
 This library currently supports CampaignManagement and ReportingService requests. HOWEVER, it is very much a work in progress. The adCenter API is hands down the most bug ridden, conflicting documentation pile of SOAP excrement you will ever come across or attempt to integrate. There are many points where we had to trial and error the correct methods, parameters, etc because the documentation is incorrect. Hopefully, this API will give you a good starting point in PHP, but it is by no means complete at this point.
 
-VERSION NOTE
-============
-
-This library currently supports v7 of the adCenter API. You will see a folder for v8 in the repo, but that version is not fully ready yet (in part, because MSN/Bing/Whatever still hasn't released a sandbox for v8 so all development has to be done in production).
 
 How do I get the right CustomerId/CustomerAccountId values?
 ===========================================================
