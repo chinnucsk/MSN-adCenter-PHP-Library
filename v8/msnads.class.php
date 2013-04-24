@@ -35,7 +35,7 @@ class MSNAds extends MSNAdCenter {
     const NAME = 'Ads';
 
     // Ads use a different namespace
-    static protected $_xmlns = 'https://adcenter.microsoft.com/v7';
+    static protected $_xmlns = 'https://adcenter.microsoft.com/v8';
 
     // Ad Structure helper
     static private $_objStruct = array(

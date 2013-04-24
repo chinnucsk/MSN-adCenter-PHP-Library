@@ -36,7 +36,7 @@ class MSNKeywords extends MSNAdCenter {
     const NAME = 'Keywords';
 
     // Keywords use a different namespace
-    static protected $_xmlns = 'https://adcenter.microsoft.com/v7';
+    static protected $_xmlns = 'https://adcenter.microsoft.com/v8';
 
     static public $_objStruct = array(      
             'BroadMatchBid' => array('Amount' => 0),

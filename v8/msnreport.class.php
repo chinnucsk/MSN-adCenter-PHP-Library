@@ -87,7 +87,7 @@ class MSNReport extends MSNAdCenter {
 
     static public $periodMap = array();
 
-    static protected $_xmlns = "https://adcenter.microsoft.com/v7";
+    static protected $_xmlns = "https://adcenter.microsoft.com/v8";
 
     const STATUS_SUCCESS = 'Success';
 
